@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     overflow-x: hidden; /* Evita desplazamiento horizontal */
 }
-
 /* Navbar styles */
 .navbar {
     display: flex;
@@ -170,7 +169,6 @@ video {
     justify-content: center;
     width: 100%;
     padding: 1rem;
- 
     font-size: 1.3rem;
     color: #ffffff;
 }
@@ -249,14 +247,11 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   
- 
-    
+
 }
 
 
 .container-info h2 {
-
     color: white;
     margin-bottom: 40px;
 }
@@ -280,8 +275,7 @@ video {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 0.6rem;
-   
+    padding: 0.6rem;   
     position: relative;
 }
 
@@ -319,6 +313,10 @@ video {
 .color-circle:hover {
     transform: scale(1.2);
 }
+.dots .dot.active {
+    background-color: black; /* Cambia el color del punto activo */
+}
+
 /* Estilo para <h2> */
 .infor h2 {
     color: #ffffff;
@@ -470,13 +468,13 @@ video {
 
 /* Estilo del texto */
 .contenido-texto {
-    font-size: 1rem;
-    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    margin: 0.7rem 0;
     line-height: 1.5;
 }
 
 .subtexto {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-style: italic;
     margin-top: 0.5rem;
 }
@@ -504,11 +502,12 @@ video {
     max-width: 400px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
-    margin-bottom: 1rem; /* Separación con el texto */
+    margin-bottom: 1rem; 
 }
 
 .texto-descriptivo {
-    font-size: 0.9rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
     color: #ffffff;
     font-family: 'kanit', sans-serif;
     max-width: 600px;
@@ -565,8 +564,7 @@ video {
 
 .cards {
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: space-between;   
     margin-bottom: 20px;
 }
 
@@ -580,8 +578,6 @@ video {
     padding: 5px 30px;
     width: 23%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
-   
 }
 
 .card p {
@@ -638,13 +634,9 @@ video {
     justify-content: center;
     width: 50%;
     min-height: 400px;
-
-  
 }
 
 .option img {
-   
-
     max-width: 100%;
     height: auto;
     min-height: 300px;
@@ -657,18 +649,12 @@ video {
     margin-top: 10px;
     font-size: 1.2em;
 }
-
-
-
-
-
 .creditos{
 
     display: flex;
     flex-direction: row;
     background-color: #e5e5e5;
-    height: 20vh;
-   
+    height: 20vh;  
     margin-top: 80px;
     align-items: center;
     justify-content: space-around;
@@ -679,11 +665,7 @@ video {
     display: flex; 
     flex-direction: row;
     width: 70%;
-
     margin-left: 10% ;
-
-  
-
     gap:5%;
 }
 
@@ -692,7 +674,6 @@ video {
 
     margin-right: 5cqmax;
 }
-
 .logo1 img{
 
     width: 70%;
