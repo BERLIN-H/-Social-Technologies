@@ -27,5 +27,30 @@
             <img src="Imagenes/Usuario.png" alt="Icono de Usuario">
         </div>
     </header>
+     <!-- Carrusel -->
+     <div class="container">
+        <div class="container-carrusel">
+            <div class="carrusel">
+                <div class="arrow left" onclick="prevSlide()">&#10094;</div>
+                <div class="content">
+                    <div class="info">
+                        <h2>IPhone 16</h2>
+                        <p>Nuevo Lanzamiento de la marca Apple</p>
+                        <button>Más información aquí</button>
+                    </div>
+                    <div class="video">
+                        <video src="Videos/Iphone.mp4" controls autoplay muted playsinline loop></video>
+                    </div>
+                </div>
+                <div class="arrow right" onclick="nextSlide()">&#10095;</div>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="setCurrentSlide(0)"></span>
+                <span class="dot" onclick="setCurrentSlide(1)"></span>
+                <span class="dot" onclick="setCurrentSlide(2)"></span>
+                <span class="dot" onclick="setCurrentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
