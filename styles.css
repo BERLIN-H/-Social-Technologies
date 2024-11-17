@@ -1,61 +1,67 @@
-/* Reset global */
+/* Elimina márgenes y paddings por defecto, y ajustamos el box-sizing para que los bordes y rellenos se incluyan en el tamaño total del elemento */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Body and general settings */
+/* Configuramos el cuerpo de la página con una fuente predeterminada, fondo oscuro y un diseño de columna */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #14213D;
+    background-color: #14213D; 
     display: flex;
     flex-direction: column;
-    overflow-x: hidden; /* Evita desplazamiento horizontal */
+    overflow-x: hidden; 
 }
-/* Navbar styles */
+
+/* Estilo para la barra de navegación, con alineación horizontal y espaciado */
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 3rem;
-    color: #ffffff;
+    color: #ffffff; /* Texto blanco */
     width: 100%;
 }
 
+/* Estilo del logo dentro de la barra de navegación */
 .logo img {
+    display: flex;
+    margin-left: 60px;
     width: 50px;
     height: auto;
-    margin-left: 60px;
 }
 
+/* Enlaces de navegación con espaciado */
 .nav-links {
     display: flex;
     gap: 9rem;
 }
 
+/* Estilo general de los enlaces en la barra de navegación */
 .nav-links a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; 
+    text-decoration: none; 
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.05em;
     cursor: pointer;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease; 
 }
 
+/* Cambio de color al pasar el cursor por encima */
 .nav-links a:hover {
-    color: #FCA311;
+    color: #FCA311; 
 }
 
+/* Icono del usuario */
 .user-icon img {
     width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    height: auto;
+    border-radius: 50%; 
     margin-right: 80px;
 }
 
-/* Main content and carrusel */
+/* Contenedor principal para centrar el contenido */
 .container {
     display: flex;
     justify-content: center;
@@ -64,12 +70,13 @@ body {
     width: 100%;
 }
 
+/* Contenedor del carrusel */
 .container-carrusel {
     width: 100%;
     max-width: 1150px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
     overflow: hidden;
     position: relative;
     padding: 1.5rem;
@@ -78,6 +85,7 @@ body {
     align-items: center;
 }
 
+/* Configuración del carrusel */
 .carrusel {
     display: flex;
     align-items: center;
@@ -85,14 +93,16 @@ body {
     width: 100%;
 }
 
+/* Flechas de navegación en el carrusel */
 .arrow {
     font-size: 2rem;
     color: #000000;
     cursor: pointer;
     padding: 0 1.5rem;
-    user-select: none;
+    user-select: none; /
 }
 
+/* Sección de contenido dentro del carrusel */
 .content {
     display: flex;
     justify-content: space-between;
@@ -101,6 +111,7 @@ body {
     padding: 1rem;
 }
 
+/* Información dentro del carrusel */
 .info {
     text-align: center;
     flex: 1;
@@ -113,12 +124,13 @@ body {
     margin-bottom: 20px;
 }
 
+/* Botón dentro del carrusel */
 button {
     margin-top: 40px;
     width: 175px;
     height: 45px;
     border: 3px solid #000000;
-    border-radius: 45px;
+    border-radius: 45px; 
     cursor: pointer;
     background: black;
     font-size: 0.9em;
@@ -126,11 +138,13 @@ button {
     color: white;
 }
 
+/* Cambio de color al pasar el cursor sobre el botón */
 button:hover {
     background: #FCA311;
     color: black;
 }
 
+/* Video dentro del carrusel */
 .video {
     flex: 1;
     max-width: 400px;
@@ -138,10 +152,10 @@ button:hover {
 
 video {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 5px; /* Bordes redondeados */
 }
 
-/* Dots (carousel indicators) */
+/* Indicadores del carrusel (puntos) */
 .dots {
     display: flex;
     gap: 0.5rem;
@@ -152,18 +166,18 @@ video {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #d3d3d3;
+    background-color: #d3d3d3; /* Color gris */
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
+/* Indicador activo */
 .dot.active {
-    background-color: #000000;
+    background-color: #000000; /* Negro */
 }
 
-/* Section titles */
+/* Título de las secciones */
 .novedades1 {
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,7 +261,6 @@ video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 
@@ -275,16 +288,9 @@ video {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 0.6rem;   
+    padding: 0.6rem;  
     position: relative;
 }
-
-.container-image:hover{
-
-
-    transform: scale(1.05);
-}
-
 
 .iphone-image {
     width: 500px;
@@ -313,10 +319,6 @@ video {
 .color-circle:hover {
     transform: scale(1.2);
 }
-.dots .dot.active {
-    background-color: black; /* Cambia el color del punto activo */
-}
-
 /* Estilo para <h2> */
 .infor h2 {
     color: #ffffff;
@@ -468,13 +470,13 @@ video {
 
 /* Estilo del texto */
 .contenido-texto {
-    font-size: 1.2rem;
-    margin: 0.7rem 0;
+    font-size: 1rem;
+    margin: 0.5rem 0;
     line-height: 1.5;
 }
 
 .subtexto {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-style: italic;
     margin-top: 0.5rem;
 }
@@ -502,12 +504,11 @@ video {
     max-width: 400px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem; /* Separación con el texto */
 }
 
 .texto-descriptivo {
-    margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     color: #ffffff;
     font-family: 'kanit', sans-serif;
     max-width: 600px;
@@ -547,7 +548,7 @@ video {
 }
 
 .ia-informacion li {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
     line-height: 1.5;
 }
@@ -564,7 +565,7 @@ video {
 
 .cards {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between; 
     margin-bottom: 20px;
 }
 
@@ -577,7 +578,7 @@ video {
     border-radius: 8px;
     padding: 5px 30px;
     width: 23%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
 }
 
 .card p {
@@ -634,12 +635,20 @@ video {
     justify-content: center;
     width: 50%;
     min-height: 400px;
+
+}
+.video {
+    flex: 1;
+    max-width: 400px;
 }
 
+video {
+    width: 100%;
+    border-radius: 5px; /* Bordes redondeados */
+}
 .option img {
     max-width: 100%;
-    height: auto;
-    min-height: 300px;
+    height: 200px;
     border-radius: 10px;
     object-fit: contain;
 
@@ -649,12 +658,14 @@ video {
     margin-top: 10px;
     font-size: 1.2em;
 }
+
 .creditos{
 
     display: flex;
     flex-direction: row;
     background-color: #e5e5e5;
-    height: 20vh;  
+    height: 20vh;
+   
     margin-top: 80px;
     align-items: center;
     justify-content: space-around;
@@ -665,6 +676,7 @@ video {
     display: flex; 
     flex-direction: row;
     width: 70%;
+
     margin-left: 10% ;
     gap:5%;
 }
@@ -674,6 +686,7 @@ video {
 
     margin-right: 5cqmax;
 }
+
 .logo1 img{
 
     width: 70%;
@@ -694,6 +707,10 @@ video {
     height: 40vh;
     background-color: red;
 }
+
+/* Computer Section */
+
+/* Begin */
 
 .h1C{
     text-align: center;

@@ -75,13 +75,13 @@ body {
 .content h1 {
     font-size: 36px;
     font-weight: 700;
-    color: #000000;
+    color: #14213D;
     margin: 0;
 }
 
 .content p {
     font-size: 16px;
-    color: #666666;
+    color: #14213D;
     margin-top: 10px;
 }
 
@@ -111,8 +111,8 @@ body {
 }
 
 .image-section p {
-    font-size: 14px;
-    color: #000000;
+    font-size: 16px;
+    color: #14213D;
     margin-top: 10px;
 }
 
