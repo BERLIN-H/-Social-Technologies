@@ -278,14 +278,6 @@ video {
     padding: 0.6rem;   
     position: relative;
 }
-
-.container-image:hover{
-
-
-    transform: scale(1.05);
-}
-
-
 .iphone-image {
     width: 500px;
     height: auto;
