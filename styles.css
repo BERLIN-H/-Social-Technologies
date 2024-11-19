@@ -56,6 +56,11 @@ body {
     margin-right: 80px;
 }
 
+.user-icon img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 /* Main content and carrusel */
 .container {
     display: flex;
