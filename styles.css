@@ -746,12 +746,19 @@ video {
     background-color: #D9D9D9;
 }
 
+.logoM{
+    width: 100px;
+    padding-top: 3.5rem;
+}
 
+.logoH{
+    width: 100px;
+    padding-top: 1.7rem;
+}
 
 .logoC{
     width: 100px;
-    margin: 20px;
-    padding-top: 2.5rem;
+    padding-top: 3.8rem;
 }
 
 .more{
