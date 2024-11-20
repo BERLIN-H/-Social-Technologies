@@ -14,6 +14,7 @@
         rel="stylesheet">
 </head>
 <body>
+    <!-- Back and others -->
     <div class="container-imgW">
         <h1 class="title-W">¡Únetenos!</h1>
         <img src="resourceSign/signImage.png" alt="WelcomeIMG">
@@ -22,8 +23,46 @@
         <a href="trending.html"><img src="resourceSign/homeSign.png" alt="Home"></a>
     </div>
     <div class="container-iconST">
-        <img src="resourceSign/logoSign.png" alt="IconST">
+        <img src="resourceSign/signLogo.png" alt="IconST">
         <p class="STtxt">ocial Technologies</p>
     </div>
+
+    <!-- Login Form -->
+
+      <div class="container-form">
+        <div class="tabs">
+            <button id="loginTab" class="active" onclick="showLogin()">LOGIN</button>
+            <button id="signupTab" onclick="showSignUp()">SIGN UP</button>
+        </div>
+
+            <!-- Login Form -->
+            <form id="loginForm" onsubmit="return validarFormularioL()">
+                <input type="email" id="campoL1" placeholder="Email" required>
+                <input type="password" id="campoL2" placeholder="Password" required>
+                <button type="submit">Siguiente</button>
+                <div class="footer-links">
+                    <a href="#" class="forgot-password">
+                        <span class="white-text">¿Olvidaste tu contraseña? - </span>
+                        <span class="colored-text">Recupérala</span>
+                        </a>
+                  </div>
+            </form>
+
+            <!-- Sign Up Form -->
+            <form id="signupForm" style="display: none;" onsubmit="return validarFormularioS()">
+                <input type="text" id="campoS1" placeholder="Username" required>
+                <input type="email" id="campoS2" placeholder="Email" required>
+                <input type="password" id="campoS3" placeholder="Password" required>
+                <button type="submit">Siguiente</button>
+                <div class="footer-links">
+                    <a onclick="showLogin()" href="javascript:void(0)" class="forgot-password">
+                        <span class="white-text">¿Ya tienes una cuenta? - </span>
+                        <span class="colored-text">Entra</span>
+                    </a>
+                  </div>
+            </form>
+    </div>
+
+    <script src="scriptLog.js"></script>
 </body>
 </html>
