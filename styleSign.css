@@ -122,6 +122,13 @@ form button {
     font-family: 'Kanit', sans-serif;
 }
 
+.nextButton{
+    display: flex;  
+    flex-direction: column;
+    position: relative;
+    left: 110px;
+}
+
 form button:hover {
     background: #FCA311;
 }
