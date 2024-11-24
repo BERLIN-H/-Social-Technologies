@@ -11,7 +11,8 @@ body {
     background-color: #14213D;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden; /* Evita desplazamiento horizontal */
+    overflow-x: hidden;
+    /* Evita desplazamiento horizontal */
 }
 
 /* Navbar styles */
@@ -242,7 +243,7 @@ video {
     justify-content: space-around;
     width: 100%;
     gap: 2rem;
-    
+
 }
 
 
@@ -251,7 +252,7 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
 }
 
 .container-info h2 {
@@ -309,13 +310,15 @@ video {
 .color-circle:hover {
     transform: scale(1.2);
 }
+
 /* Estilo para <h2> */
 .infor h2 {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    margin: 3rem 0 3rem 0; /* Aumenta el margen superior para bajarlo */
+    margin: 3rem 0 3rem 0;
+    /* Aumenta el margen superior para bajarlo */
 }
 
 /* Estilo para <h3> con más espacio debajo */
@@ -324,7 +327,8 @@ video {
     font-family: 'Poppins', sans-serif;
     font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 2rem; /* Más espacio debajo de <h3> */
+    margin-bottom: 2rem;
+    /* Más espacio debajo de <h3> */
 }
 
 /* Cuadro de información adicional */
@@ -335,7 +339,8 @@ video {
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
-    margin: 2rem auto 0 auto; /* Añade margen superior para empujar hacia abajo */
+    margin: 2rem auto 0 auto;
+    /* Añade margen superior para empujar hacia abajo */
     text-align: center;
 }
 
@@ -345,13 +350,15 @@ video {
     font-size: 1rem;
     line-height: 1.5;
 }
+
 /* Estilo para el título de "Presentaciones" */
 .presentacion-titulo {
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 5rem; /* Aumenta el margen superior para más separación */
+    margin-top: 5rem;
+    /* Aumenta el margen superior para más separación */
     margin-bottom: 1.5rem;
 }
 
@@ -366,7 +373,7 @@ video {
 
 }
 
-.imag-container-content{
+.imag-container-content {
 
     display: flex;
     flex-direction: column;
@@ -421,14 +428,17 @@ video {
 .colors-circles:hover {
     transform: scale(1.2);
 }
+
 /* Estilo general de la sección */
 .section-contenido {
     text-align: center;
     color: #ffffff;
     font-family: 'kanit', sans-serif;
-    background-color: #14213D; /* Fondo oscuro */
+    background-color: #14213D;
+    /* Fondo oscuro */
     padding: 2rem 1rem;
-    margin-top: 3rem; /* Para separarlo del contenido anterior */
+    margin-top: 3rem;
+    /* Para separarlo del contenido anterior */
 }
 
 /* Estilo para los títulos */
@@ -485,7 +495,8 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3rem; /* Espacio inferior para separar del siguiente bloque */
+    margin-bottom: 3rem;
+    /* Espacio inferior para separar del siguiente bloque */
     padding: 1rem;
 }
 
@@ -493,8 +504,10 @@ video {
     width: 100%;
     max-width: 400px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidad */
-    margin-bottom: 1rem; /* Separación con el texto */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* Sombra para dar profundidad */
+    margin-bottom: 1rem;
+    /* Separación con el texto */
 }
 
 .texto-descriptivo {
@@ -511,9 +524,11 @@ video {
     text-align: center;
     color: #ffffff;
     font-family: 'kanit', sans-serif;
-    background-color: #14213D; /* Fondo oscuro */
+    background-color: #14213D;
+    /* Fondo oscuro */
     padding: 3rem 1rem;
-    margin-top: 3rem; /* Separación con la sección anterior */
+    margin-top: 3rem;
+    /* Separación con la sección anterior */
 }
 
 /* Título de la sección IA */
@@ -576,26 +591,26 @@ video {
     margin: 10px 0;
 }
 
-.Juan{
+.Juan {
     padding: 1.5rem 0 0 2.5rem;
 }
 
-.Gamez{
+.Gamez {
     padding: 1.5rem 0 0 2.5rem;
 }
 
-.Cristhian{
+.Cristhian {
     padding: 1.5rem 0 0 2.5rem;
 }
 
-.Dario{
+.Dario {
     padding: 0 0 0 2.5rem;
 }
 
-.UserG{
+.UserG {
     width: 35%;
     color: #14213D;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .question {
@@ -629,8 +644,7 @@ video {
 
 .option img {
     max-width: 100%;
-    height: auto;
-    min-height: 300px;
+    height: 200px;
     border-radius: 10px;
     object-fit: contain;
 
@@ -641,7 +655,7 @@ video {
     font-size: 1.2em;
 }
 
-.HoverTest{
+.HoverTest {
     width: 80%;
     height: 40vh;
     background-color: red;
@@ -651,7 +665,7 @@ video {
 
 /* Begin */
 
-.h1C{
+.h1C {
     text-align: center;
     margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
@@ -659,7 +673,7 @@ video {
     color: #ffffff;
 }
 
-.infoAll{
+.infoAll {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -668,7 +682,8 @@ video {
     gap: 20px;
     height: 240px;
     padding: 20px;
-    max-width: 600px; /* Define un ancho máximo para el contenedor */
+    max-width: 600px;
+    /* Define un ancho máximo para el contenedor */
     margin: 0 auto;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -685,22 +700,22 @@ video {
     background-color: #D9D9D9;
 }
 
-.logoM{
+.logoM {
     width: 100px;
     padding-top: 3.5rem;
 }
 
-.logoH{
+.logoH {
     width: 100px;
     padding-top: 1.7rem;
 }
 
-.logoC{
+.logoC {
     width: 100px;
     padding-top: 3.8rem;
 }
 
-.more{
+.more {
     font-family: 'Kanit', sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
@@ -722,16 +737,16 @@ video {
 
 /* Information HP */
 
-.container-bannerHP{
+.container-bannerHP {
     position: relative;
 }
 
-.bannerHP{
+.bannerHP {
     height: 116px;
     margin: 6rem 0 4rem 0;
 }
 
-.text-bannerHP{
+.text-bannerHP {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -742,7 +757,7 @@ video {
     text-align: center;
 }
 
-.logo-BannerHP{
+.logo-BannerHP {
     position: absolute;
     top: 35%;
     left: 60%;
@@ -752,7 +767,7 @@ video {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.infoAllHP{
+.infoAllHP {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -761,7 +776,8 @@ video {
     gap: 20px;
     height: 300px;
     padding: 20px;
-    max-width: 600px; /* Define un ancho máximo para el contenedor */
+    max-width: 600px;
+    /* Define un ancho máximo para el contenedor */
     margin: 0 auto;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -778,13 +794,13 @@ video {
     background-color: #D9D9D9;
 }
 
-.imgHP1{
+.imgHP1 {
     width: 200px;
     height: 200px;
     margin: 20px;
 }
 
-.imgHP2{
+.imgHP2 {
     width: 120px;
     height: 150px;
     margin: 20px;
@@ -809,7 +825,8 @@ video {
     gap: 20px;
     height: 300px;
     padding: 20px;
-    max-width: 600px; /* Define un ancho máximo para el contenedor */
+    max-width: 600px;
+    /* Define un ancho máximo para el contenedor */
     margin: 0 auto;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -826,22 +843,22 @@ video {
     background-color: #D9D9D9;
 }
 
-.container-bannerASUS{
-    margin: 4rem 0 2rem 0; 
+.container-bannerASUS {
+    margin: 4rem 0 2rem 0;
 }
 
-.bannerASUS{
+.bannerASUS {
     width: 100%;
     margin: 6rem 0 4rem 0;
 }
 
-.imgASUS1{
+.imgASUS1 {
     width: 200px;
     height: 150px;
     margin: 20px;
 }
 
-.imgASUS2{
+.imgASUS2 {
     width: 200px;
     height: 160px;
     margin: 20px;
@@ -866,7 +883,8 @@ video {
     gap: 20px;
     height: 300px;
     padding: 20px;
-    max-width: 600px; /* Define un ancho máximo para el contenedor */
+    max-width: 600px;
+    /* Define un ancho máximo para el contenedor */
     margin: 0 auto;
     border-radius: 6px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -883,22 +901,22 @@ video {
     background-color: #D9D9D9;
 }
 
-.container-bannerLenovo{
-    margin: 4rem 0 2rem 0; 
+.container-bannerLenovo {
+    margin: 4rem 0 2rem 0;
 }
 
-.bannerLenovo{
+.bannerLenovo {
     width: 100%;
     margin: 6rem 0 4rem 0;
 }
 
-.imgLenovo1{
+.imgLenovo1 {
     width: 200px;
     height: 150px;
     margin: 20px;
 }
 
-.imgLenovo2{
+.imgLenovo2 {
     width: 200px;
     height: 160px;
     margin: 20px;
@@ -924,8 +942,8 @@ video {
     margin-top: 100px;
 }
 
-.creditos{
-    display:flex;
+.creditos {
+    display: flex;
     flex-direction: row;
     background-color: #e5e5e5;
     height: 20vh;
@@ -934,19 +952,113 @@ video {
     justify-content: space-around;
 }
 
-.contentCreditosText{
-    display: flex; 
+.contentCreditosText {
+    display: flex;
     flex-direction: row;
     width: 70%;
-    margin-left: 30% ;
-    gap:5%;
+    margin-left: 30%;
+    gap: 5%;
 }
 
-.contentCreditosText .textOne{
+.contentCreditosText .textOne {
     margin-right: 22cqmax;
 }
 
-.logo1 img{
+.logo1 img {
     width: 70%;
     height: auto;
+}
+.frame {
+    width: 90%;
+    height: 50;
+    border: px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    border-radius: 20px;
+}
+
+
+.image {
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.text {
+    flex: 1;
+    padding-left: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: #14213D;
+    text-align: center; 
+    font-size: 1.2rem;
+    
+}
+
+
+.frame2 {
+    width: 90%;
+    height: 50;
+    border: px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+    border-radius: 20px;
+}
+
+
+.frame3 {
+    width: 90%;
+    height: 50;
+    border: px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+    border-radius: 20px;
+}
+
+
+
+.frame4 {
+    width: 90%;
+    height: 50;
+    border: px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+    border-radius: 20px;
+}
+
+
+
+.frame5 {
+    width: 90%;
+    height: 50;
+    border: px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+    border-radius: 20px;
+}
+
+.frame6 {
+    width: 90%;
+    height: 50;
+    border: px solid black;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 45px;
+    border-radius: 20px;
 }
