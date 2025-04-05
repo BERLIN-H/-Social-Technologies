@@ -8,24 +8,29 @@
 /* Body and general settings */
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #14213D;
-
-
 }
 
-/* Navbar styles */
+/* NAVBAR */
 .navbar {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 1rem 3rem;
-    color: #ffffff;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
     width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Navbar animación al hacer scroll */
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px 40px;
 }
 
 .logo img {
@@ -59,9 +64,78 @@ body {
     border-radius: 50%;
     margin-right: 80px;
 }
-.user-icon img:hover {
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 60px 0;
+    width: 75%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #14213D;
+}
+
+.content p {
+    font-size: 16px;
+    color: #14213D;
+    margin-top: 10px;
+}
+
+/* Animación en los botones */
+.btn-info {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 3px solid #000000;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-info:hover {
     transform: scale(1.1);
-    transition: 0.3s;
+    background-color: #FCA311;
+    color: black;
+}
+
+/* Animación en la imagen principal */
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 .container {
     display: flex;
@@ -98,11 +172,13 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
+    border: 3px solid #000000;
     transition: background-color 0.3s ease;
 }
 
 .btn-info:hover {
     background-color: #FCA311;
+    color: black;
 }
 
 .image-section {

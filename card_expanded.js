@@ -18,4 +18,4 @@ function scrollToSection(sectionId) {
     if (section) {
         section.scrollIntoView({ behavior: 'smooth' });
     }
-}
+}   
